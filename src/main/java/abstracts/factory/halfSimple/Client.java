@@ -1,9 +1,9 @@
-package factory.method.halfSimple;
+package abstracts.factory.halfSimple;
 
-import factory.method.halfSimple.factory.IPhone11Factory;
-import factory.method.halfSimple.factory.IPhoneFactory;
-import factory.method.halfSimple.factory.IPhoneXFactory;
-import factory.method.halfSimple.model.IPhoneAbstract;
+import abstracts.method.halfSimple.factory.IPhone11Factory;
+import abstracts.method.halfSimple.factory.IPhoneFactory;
+import abstracts.method.halfSimple.factory.IPhoneXFactory;
+import abstracts.method.halfSimple.model.IPhoneAbstract;
 
 public class Client {
 	

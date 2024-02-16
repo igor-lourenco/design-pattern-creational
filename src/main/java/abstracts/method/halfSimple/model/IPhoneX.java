@@ -1,4 +1,4 @@
-package factory.method.after.model;
+package abstracts.method.halfSimple.model;
 
 public class IPhoneX extends IPhoneAbstract {
 
@@ -10,5 +10,4 @@ public class IPhoneX extends IPhoneAbstract {
 		System.out.println("\t- 3Gb RAM");
 		System.out.println("\t- 256Gb Memory");
 	}
-
 }

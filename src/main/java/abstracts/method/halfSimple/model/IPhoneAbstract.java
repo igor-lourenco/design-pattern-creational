@@ -1,8 +1,8 @@
-package factory.method.before.model;
+package abstracts.method.halfSimple.model;
 
 public abstract class IPhoneAbstract {
 
-public abstract void getHardware();
+	public abstract void getHardware();
 	
 	public void assemble() {
 		System.out.println("Assembling all the hardwares");
@@ -16,3 +16,4 @@ public abstract void getHardware();
 		System.out.println("Packing the device");
 	}
 }
+

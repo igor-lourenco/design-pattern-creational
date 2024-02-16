@@ -1,4 +1,4 @@
-package factory.method.simple.model;
+package abstracts.method.halfSimple.model;
 
 public class IPhone11 extends IPhoneAbstract {
 
