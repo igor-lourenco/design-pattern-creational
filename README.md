@@ -11,7 +11,7 @@ Esse padrão de projeto fornece uma interface ou classe abstrata para criar obje
 
 ### Antes de usar o padrão de projeto
   
-![Before](https://github.com/igor-lourenco/design-patterns/blob/creational-patterns/uml/before_factory_method.png)
+![Before](https://github.com/igor-lourenco/design-pattern-creational-factory-method/blob/factory-method/uml/before_factory_method.png)
 
 Nesse exemplo, antes de usar o padrão `Factory Method`, a classe **Client** precisa entender não apenas a classe abstrata que representa a interface comum entre os diferentes modelos de iPhone, mas também todas as classes concretas que representam cada modelo específico (por exemplo, iPhoneX, iPhoneXSMax, iPhone11, etc.). Isso significa que a classe **Client** teria que lidar com detalhes da implementação específicas de cada modelo de iPhone, o que poderia ser complicado e propenso a erros. Alguns desses problemas incluem:
 
@@ -27,7 +27,7 @@ Nesse exemplo, antes de usar o padrão `Factory Method`, a classe **Client** pre
 
 ### Usando o Simple Factory Method:
 
-![Simple](https://github.com/igor-lourenco/design-patterns-creational/blob/creational-patterns/uml/simple_factory_method.png)
+![Simple](https://github.com/igor-lourenco/design-pattern-creational-factory-method/blob/factory-method/uml/simple_factory_method.png)
 
 Nessa abordagem usando o Simple Factory Method,  Em vez de criar uma interface, é criada apenas uma classe chamada iPhoneSimpleFactory. Nessa classe, o método static chamado **orderiPhone(String, String)** é responsável por criar diferentes modelos de iPhones com base nos parâmetros fornecidos. A explicação do processo:
 
@@ -45,7 +45,7 @@ Essa abordagem simplifica o código ao encapsular toda a complexidade de criaç�
 
 ### Usando o Half Factory Method:
 
-![Half](https://github.com/igor-lourenco/design-patterns-creational/blob/creational-patterns/uml/half_simple_factory_method.png)
+![Half](https://github.com/igor-lourenco/design-pattern-creational-factory-method/blob/factory-method/uml/half_simple_factory_method.png)
 
 
 
@@ -67,7 +67,7 @@ Essa abordagem organiza as fábricas de iPhones por grupos de modelos, tornando 
 
 ### Usando o padrão completo Factory Method:
 
-![After](https://github.com/igor-lourenco/design-patterns-creational/blob/creational-patterns/uml/factory_method.png)
+![After](https://github.com/igor-lourenco/design-pattern-creational-factory-method/blob/factory-method/uml/factory_method.png)
 
 
 Essa forma de implementação, com uma fábrica para cada tipo de objeto concreto, pode ser mais complexa e menos flexível do que outras abordagens mais simplificadas.
